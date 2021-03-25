@@ -1,0 +1,86 @@
+:root {
+    --text: ;
+    --titles: ;
+    --shadows: ;
+    --fill: ;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+#site {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column-gap: 1rem;
+}
+#masthead {
+    padding: 0;
+    background-color: #000;
+}
+nav {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 3.5rem;
+}
+nav li {
+    margin: 0.5rem 0;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+nav a:hover {
+    color: #F5DF4D;
+}
+#contact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+    margin: 0 1rem 1rem 1rem;
+}
+#contact a {
+    color: #fff;
+}
+#contact a:hover {
+    color: #F5DF4D;
+}
+#chunk {
+    background-color: #939597;
+    height: 30rem;
+}
+#chunk span {
+    padding: 4rem 0;
+}
+#cover {
+    background-image: url("../images/cover.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+footer {
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+footer a:hover {
+    color: #F5DF4D;
+}
