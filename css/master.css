@@ -7,7 +7,7 @@ body {
 #site {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-gap: 1rem;
+    grid-gap: 0;
     grid-template-areas:
         "mst cnt"
         "mst ft";
@@ -59,6 +59,8 @@ nav a:hover {
 }
 #content {
     grid-area: cnt;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 
 }
 #identity {
@@ -79,7 +81,7 @@ nav a:hover {
     width: 100%;
     text-align: right;
     color: #000;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
 }
 .image1 img {
