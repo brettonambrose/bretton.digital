@@ -7,6 +7,22 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+#fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+#fullscreen_bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 #site {
     margin-left: 6rem;
     padding-left: 1rem;
