@@ -16,13 +16,13 @@ body {
     overflow: hidden;
     z-index: -100;
 }
-#fullscreen_bg video {
+/* #fullscreen_bg video {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
     min-height: 100%;
-}
+} */
 #site {
     margin-left: 6rem;
     padding-left: 1rem;
@@ -56,6 +56,13 @@ nav ul {
 }
 nav li {
     margin: 0;
+}
+.here {
+    display: block;
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    color: #939597;
+    text-transform: uppercase;
 }
 nav a {
     text-decoration: none;
@@ -94,22 +101,25 @@ h1 {
     margin-top: 1rem;
 }
 .heading {
-    display: block;
+    display: table;
     color: #000;
+    background-color: #F5DF4D;
     font-family: 'Anton', sans-serif;
     font-size: 3rem;
     line-height: 3rem;
     text-transform: uppercase;
+    padding-top: 1rem;
+    user-select: none;
 }
 .heading2 {
-    display: block;
-    width: 100%;
+    display: table;
     text-align: left;
     color: #000;
+    background-color: #F5DF4D;
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    user-select: none;
 }
 .image1 img {
     display: block;
@@ -146,6 +156,9 @@ footer a:hover {
     nav ul {
         font-size: 3rem;
     }
+    .here {
+        font-size: 3rem;
+    }
     h1 {
         font-size: 4rem;
         line-height: 4rem;
@@ -167,6 +180,9 @@ footer a:hover {
         width: 4rem;
     }
     nav ul {
+        font-size: 2rem;
+    }
+    .here {
         font-size: 2rem;
     }
     h1 {
