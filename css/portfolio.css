@@ -1,0 +1,152 @@
+#content {
+    display: block !important;
+    padding-top: 2.5rem;
+}
+img {
+    width: 100% !important;
+}
+#grid_portfolio {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+}
+.grid_item {
+    display: block;
+    width: 100%;
+    color: #000;
+}
+.grid_item a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.heading_portfolio {
+    display: table;
+    color: #000;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    user-select: none;
+}
+#world_leaders {
+    display: block;
+    background-image: linear-gradient(black, black), url('../images/wl_logo_full.png');
+    background-position: center;
+    background-blend-mode: saturation;
+    padding: 2rem;
+    height: 36rem;
+}
+#world_leaders:hover {
+    background-image: url('../images/wl_logo_full.png');
+    background-blend-mode: unset;
+}
+#john_cage {
+    display: block;
+    background-image: linear-gradient(black, black), url('../images/john_cage_433_color.png');
+    background-position: center;
+    background-blend-mode: saturation;
+    padding: 2rem;
+    height: 36rem;
+}
+#john_cage:hover {
+    background-image: url('../images/john_cage_433_color.png');
+    background-blend-mode: unset;
+}
+#russ_marshall {
+    display: block;
+    background-image: linear-gradient(black, black), url('../images/russ_marshall_dia.png');
+    background-position: center;
+    background-blend-mode: saturation;
+    padding: 2rem;
+    height: 36rem;
+}
+#russ_marshall:hover {
+    background-image: url('../images/russ_marshall_dia.png');
+    background-blend-mode: unset;
+}
+#glypha {
+    display: block;
+    background-image: linear-gradient(black, black), url('../images/glypha_history_poster.png');
+    background-position: center;
+    background-blend-mode: saturation;
+    padding: 2rem;
+    height: 36rem;
+}
+#glypha:hover {
+    background-image: url('../images/glypha_history_poster.png');
+    background-blend-mode: unset;
+}
+#knowgood {
+    display: block;
+    background-image: linear-gradient(black, black), url('../images/logo_1.png');
+    background-position: center;
+    background-blend-mode: saturation;
+    padding: 2rem;
+    height: 36rem;
+}
+#knowgood:hover {
+    background-image: url('../images/logo_1.png');
+    background-blend-mode: unset;
+}
+#huf {
+    display: block;
+    background-image: linear-gradient(black, black), url('../images/secret_store.png');
+    background-position: center;
+    background-blend-mode: saturation;
+    padding: 2rem;
+    height: 36rem;
+}
+#huf:hover {
+    background-image: url('../images/secret_store.png');
+    background-blend-mode: unset;
+}
+#recycling {
+    display: block;
+    background-image: linear-gradient(black, black), url('../images/frybrett_recycling_spread_portfolio_page.png');
+    background-position: center;
+    background-blend-mode: saturation;
+    padding: 2rem;
+    height: 36rem;
+}
+#recycling:hover {
+    background-image: url('../images/frybrett_recycling_spread_portfolio_page.png');
+    background-blend-mode: unset;
+}
+#trump {
+    display: block;
+    background-image: linear-gradient(black, black), url('../images/villain_color_shade.png');
+    background-position: center;
+    background-blend-mode: saturation;
+    padding: 2rem;
+    height: 36rem;
+}
+#trump:hover {
+    background-image: url('../images/villain_color_shade.png');
+    background-blend-mode: unset;
+}
+@media only screen and (max-width: 1400px) {
+    #grid_portfolio {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width: 1140px) {
+    #grid_portfolio {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #world_leaders, #john_cage, #russ_marshall, #glypha, #knowgood, #huf, #recycling, #trump {
+        height: 24rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #grid_portfolio {
+        display: block;
+    }
+    .grid_item {
+        margin-bottom: 2rem;
+    }
+    #world_leaders, #john_cage, #russ_marshall, #glypha, #knowgood, #huf, #recycling, #trump {
+        height: 12rem;
+    }
+}
